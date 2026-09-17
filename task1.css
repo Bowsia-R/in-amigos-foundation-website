@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 250, 217);
+}
+.icon{
+    margin-top:0 ;
+    width: 100;
+    height:100;
+    background-color: rgb(158, 235, 164);
+    margin: 0;
+   
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    
+}
+.divimg:hover{
+    background-color: rgb(134, 185, 149);
+    transform: translateY(-30px);
+    border: 2px solid  rgb(148, 235, 148);
+    transition:all 0.5s ease-in;
+    
+    
+ }
+ .dimg:hover{
+    border: 5px solid silver;
+ }
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+ }
+.dimg{
+    width:200px;
+    height: 250px;
+    margin: 26px;
+    border-radius: 20px;
+ }
+.divimg{
+    background-color: rgba(239, 243, 239, 0.856);
+    color: black;
+    width: 260px;
+    height: 520px;
+    border-radius: 20px;
+
+ }
+ p{
+    margin-left: 10px;
+ }
+ h3{
+    margin-left: 10px;
+ }
+.para{
+    
+    margin: 100px;
+    margin-top: 30px;
+}
+.herohead{
+    text-align: center;
+    
+}
+.head{
+    font-family: cursive;
+    margin-left: 30px;
+    text-align: center;
+    color: rgb(39, 85, 30);
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+    justify-content: space-evenly;
+    display:flex
+   
+   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 134, 109);
+}
+ul li{
+    list-style: none;
+    margin-left: 190px;
+    margin-top: 10px;
+    
+    font-size: 18px;
+    
+    
+
+}
+.gimg{
+     width: 250px;
+    height: 250px;
+    border:1px solid white;
+    border-radius:10%;
+}
+.img1:hover{
+   transform: translateY(-30px);
+
+ }
+.lia{
+    margin-left: 0px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(155, 211, 174);
+}
+.img{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flexbox;
+}
+.contact{
+    height: 600px;
+    width: 600px;
+    align-items: center;
+    background-color: rgb(112, 228, 137);
+    margin-left: 300px;
+    border-radius: 15%  ;
+    border: 2px solid black;
+}
+.last{
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+}
+.incon{
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 500px;
+    width: 500px;
+    border-radius: 15%  ;
+    border: 2px solid rgb(88, 212, 109);
+    background-color: aliceblue;
+}
+.photo{
+
+   justify-content: space-evenly;
+   display: flex;
+ 
+}
+.hero{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 800px;
+    object-fit: contain;
+    margin-left: 300px;
+}
